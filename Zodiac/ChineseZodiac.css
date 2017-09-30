@@ -1,0 +1,130 @@
+/*This is for the background */
+html {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+p, ol {
+    font-family: "Gill Sans", sans-serif;
+    text-indent: 50px;
+    font-size: 15pt;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*The background image that doesnt move*/
+body {
+    background-image: url("Pictures/LanternBackground.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+form {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+#banner {
+    background-image: url("Pictures/bannerwebsite.png");
+    background-size: 70%;
+    padding-bottom: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#navigation {
+
+    text-align:center;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100px;
+    position: relative;
+    bottom: -50px;
+}
+
+#home, #animal_button, #contact_button {
+    width:auto;
+    height:auto;
+}
+#home:hover {
+   background-image: url('Pictures/button_home-2.png');
+}
+    
+
+#navigation ul li {
+    list-style: none;
+    display: inline;
+    margin-bottom: 200px;
+}
+
+    
+/*The background for the text*/
+#container {
+    background-image: url("Pictures/lanterns.jpg");
+    background-size: 160%;
+    background-position: center;
+    color: white;
+}
+
+#zodiacimage{
+    width:200px;
+    height: 200px;
+    float: right;
+    position: relative;
+    top: -20px;
+    
+} 
+
+#zodiaclist {
+    list-style-position: inside;
+    text-align: center;
+    columns: 2;
+    position: relative;
+    left: -20px;
+}
+
+#inside {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+#formfill {
+    text-align: right;
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+    left: -20px;
+}
+
+#formfill input {
+    width: 70%;
+    align-content: left;
+}
+
+#comment {
+    vertical-align: text-top
+}
+
+
+#submitit {
+    width 15em;
+    height: 2em;
+}
+
+#titlecontactus {
+    text-align: left;
+    padding: 15px;
+}
